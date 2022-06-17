@@ -2,6 +2,10 @@ document.body.addEventListener('keyup' , (event) => {
     playSound(event.code.toLocaleLowerCase());
 })
 
+document.querySelector('.composer button').addEventListener('click' , () => {
+    let song = document.querySelector('#input')
+})
+
 function playSound(sound) {
     let audioElement = document.querySelector(`#s_${sound}`);
     let keyElement = document.querySelector(`div[data-key="${sound}"]`);
