@@ -28,3 +28,7 @@ function playSound(sound) {
         }, 300);
     }
 }
+
+function playComposition (songArray) {
+    
+}
